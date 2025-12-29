@@ -1,0 +1,96 @@
+body,p,a,div,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-image: url(assets/day8\ backdrop.png);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-card{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-image{
+    width: 50px;
+    height: 50px;
+}
+
+.quotes{
+    height: 50px;
+    width: 50px;
+}
+
+.heading{
+    margin-top: 60px;
+    color: rgb(31, 71, 61);
+}
+
+.subheading{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.grid{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.card{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid rgba(215, 215, 215, 0.4);
+    box-shadow: 1px 1px 3px rgb(85, 85, 85,0.1);
+}
+
+.top-section{
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.post{
+    margin-top: 6px;
+    opacity: 0.5;
+}
+
+.bottom-section{
+    display: flex;
+}
+
+.review{
+    margin-top: 15px;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.stars{
+    margin-top: 8px;
+}
+.star{
+    height: 15px;
+    width: 15px;
+}
